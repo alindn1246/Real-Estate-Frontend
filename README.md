@@ -1,3 +1,21 @@
+Real Estate WebApp - Frontend
+This repository contains the frontend implementation of a Real Estate WebApp developed using React. The system provides an intuitive user interface for searching houses, applying filters, searching for agents, and interacting with maps. Additionally, it enables users to add properties to favorites and bookmark them for future reference.
+
+Features
+House Search: Allows users to search for available houses based on various criteria such as location, price range, size, etc.
+Filters: Provides filter options to refine search results according to specific preferences like the number of bedrooms, bathrooms, amenities, etc.
+Agent Search: Enables users to search for real estate agents based on their expertise, location, contact information, etc.
+Map Integration: Utilizes Leaflet library for displaying interactive maps, allowing users to visualize property locations and nearby amenities.
+Favorites and Bookmarks: Allows users to mark properties as favorites and bookmark them for easy access later.
+Technologies Used
+React: A JavaScript library for building user interfaces, providing a component-based architecture for creating reusable UI elements.
+Leaflet: An open-source JavaScript library for interactive maps, enabling the integration of maps into web applications.
+ASP.NET WebApi: The backend framework responsible for handling API requests and interacting with the database.
+REST API: Utilizes RESTful API endpoints to communicate with the backend for fetching and updating data.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

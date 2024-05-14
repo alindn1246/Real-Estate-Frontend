@@ -1,0 +1,9 @@
+.search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar {
+    margin-right: 10px; /* Adjust as needed */
+  }
+  

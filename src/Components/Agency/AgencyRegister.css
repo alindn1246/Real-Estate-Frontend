@@ -1,0 +1,132 @@
+.agentForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    background-color: #1a1a1a;
+    color: #fff;
+    border: 1px solid #333;
+  }
+  
+  .agentForm-title {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    color: #00bfff;
+  }
+  
+  .agentForm-message,
+  .agentForm-signin {
+    font-size: 14.5px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .agentForm-signin {
+    text-align: center;
+  }
+  
+  .agentForm-signin a:hover {
+    text-decoration: underline royalblue;
+  }
+  
+  .agentForm-signin a {
+    color: #00bfff;
+  }
+  
+  .agentForm-flex {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+  }
+  
+  .agentForm .form-group {
+    position: relative;
+  }
+  
+  .agentForm .form-control {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    padding: 20px 05px 05px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+  }
+  
+  .agentForm .form-control + span {
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  .agentForm .form-control:placeholder-shown + span {
+    top: 12.5px;
+    font-size: 0.9em;
+  }
+  
+  .agentForm .form-control:focus + span,
+  .agentForm .form-control:valid + span {
+    color: #00bfff;
+    top: 0px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .agentForm-input {
+    font-size: medium;
+  }
+  
+  .agentForm-submit {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    transform: .3s ease;
+    background-color: #00bfff;
+    margin-top: 40px;
+  }
+  
+  .agentForm-submit:hover {
+    background-color: #00bfff96;
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1.8);
+      opacity: 0;
+    }
+  }
+ 
+  .agentForm-select form-control{
+    height: 200px;
+  }
+  
+  
+  
+
+  
+  .formAddress .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    height: auto; /* Override the fixed height */
+    border-radius: 0.25rem; /* Maintain the border-radius */
+  }
+
+ 

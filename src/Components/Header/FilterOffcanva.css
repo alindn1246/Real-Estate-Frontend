@@ -1,0 +1,23 @@
+.full-page-offcanvas{
+    width: 100%;
+    height: 100%;
+}
+.FilterIcon{
+    width: 20px;
+    height: 20px;
+}
+.filtercontainers{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    margin: auto;
+}
+
+
+@media only screen and (max-width:500px) {
+    .FilterIcon{
+        width: 15px;
+        height: 15px;
+        
+    }
+}

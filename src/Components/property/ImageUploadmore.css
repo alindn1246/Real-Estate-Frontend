@@ -1,0 +1,66 @@
+.containerPropertyPhase2{
+    display: grid;
+ grid-template-columns: repeat(2, 1fr); 
+ gap: 10px; 
+}
+.containerImages{
+    background-color: white;
+    width: 100%;
+    max-width: 400px;
+    justify-content: center;
+ align-items: center;
+    height: 490px;
+   padding-top: 30px;
+   
+    margin-top: 30px;
+    margin-left: 70PX;
+    margin-right: 40px;
+  
+    padding-left: 150px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+
+}
+
+.carousel-container {
+    width: 100%;
+    max-width: 400px;
+    height: 700px;
+   
+    
+}
+
+.carousel-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.carousel .control-arrow:before {
+    color: black;
+  }
+  
+  .carousel .control-next.control-arrow:before {
+    opacity: 1;
+  }
+  
+  .carousel .control-prev.control-arrow:before {
+    opacity: 1;
+  }
+  
+.propertyname{
+    margin-top: 18px;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding-left: 45px;
+        height: 400px;
+        width:300px ;
+    }
+ 
+   
+    
+}

@@ -1,0 +1,105 @@
+.about-us {
+  text-align: center;
+  margin-right: 10px;
+  animation: slide-in 2s ease-out forwards;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-in {
+  animation: slide-in 2s ease-out forwards;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.about-image {
+  width: 40%;
+  height: auto;
+  margin-right: 20px;
+  overflow: clip;
+  overflow-clip-margin: content-box;
+}
+
+.text-content {
+  width: 50%;
+}
+
+.slogan {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.about-text {
+  margin-top: 0;
+  text-align: left;
+  font-size: 12px;
+}
+
+/* Media query for screens smaller than 1024px */
+@media screen and (max-width: 1024px) {
+  .about-image {
+    width: 60%; /* Increase width */
+  }
+  .text-content {
+    width: 70%; /* Increase width */
+  }
+  .slogan,
+  .about-text {
+    font-size: 1em; /* Decrease font size */
+  }
+}
+
+/* Media query for screens smaller than 600px */
+@media screen and (max-width: 800px) {
+  .about-image {
+    width: 50%; /* Increase width */
+  }
+  .text-content {
+    width: 90%; /* Increase width */
+  }
+  .slogan,
+  .about-text {
+    font-size: 0.6em; /* Decrease font size */
+  }
+}
+
+/* Media query for screens smaller than 600px */
+@media screen and (max-width: 550px) {
+  .about-image {
+    width: 50%; /* Increase width */
+  }
+  .text-content {
+    width: 100%; /* Increase width */
+  }
+  .slogan,
+  .about-text {
+    font-size: 0.45em; /* Decrease font size */
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .about-image {
+    width: 50%; /* Increase width */
+  }
+  .text-content {
+    width: 100%; /* Increase width */
+  }
+  .slogan,
+  .about-text {
+    font-size: 0.3em; /* Decrease font size */
+  }
+}

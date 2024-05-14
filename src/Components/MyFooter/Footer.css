@@ -1,0 +1,36 @@
+.FooterDesign{
+  background-color: rgb(16, 16, 95);
+  margin-top: 30px;
+  
+
+}
+.TopFooterSection{
+  background-color: rgba(26, 215, 63, 0.95);
+  color: white;
+}
+
+.MiddleFooterSection{
+  color: aliceblue;
+}
+
+.LastFooterSection{
+  background-color: rgb(15, 15, 106);
+  color: aliceblue;
+}
+.myspecfic {
+  color: rgb(212, 188, 188);
+ 
+}
+.myspecfic a{
+  text-decoration: none;
+  transition: color 0.3s;
+
+}
+.myspecfic a:hover{
+  color: aliceblue;
+}
+@media (max-width: 600px) {
+  .MiddleFooterSection{
+  height: 700px;
+  }
+}

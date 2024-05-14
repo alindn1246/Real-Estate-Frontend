@@ -1,0 +1,175 @@
+.header-container {
+    width: 100%;
+    height: 50vh; /* half of the viewport height */
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .navo{
+    position: absolute;
+    width: 100%;
+    margin-top: 1px;
+  }
+  .SearchBanner{
+    position: absolute;
+   top:50%;
+   left: 33%;
+   z-index: 100000000;
+  }
+
+ .SearchContainer{
+    position: absolute;
+    top:55%;
+    left: 31%;
+    z-index: 10000;
+  }
+  .Whitecontainer{
+    position: absolute;
+    top:40%;
+    left: 27%;
+    width: 600px;
+    height: 250px;
+    z-index: 100;
+    padding: 36px 60px;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 3px 0 rgba(7, 25, 57, 0.1), 0 1px 2px 0 rgba(7, 25, 57, 0.2);
+    background-color: rgb(255, 255, 255);
+  }
+
+
+ 
+
+  .carousel-control-prev, .carousel-control-next {
+    
+   visibility: hidden;
+  }
+  .header-carousel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+   
+  }
+  
+  .banner1 {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+    transform: translateX(-50%);
+    font-family: "acta-display", serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -1px;
+    color: rgb(0, 0, 0);
+    line-height: 30px;
+    margin: 20px 0 60px;
+  
+  }
+  .meta {
+  display: inline-block;
+  font-family: "Arial", sans-serif;
+  font-size: 11px;
+  letter-spacing: 5px;
+  color: #88888a;
+  text-transform: uppercase;
+  position: relative;}
+  #slide-status {
+  
+  font-family: "acta-display", serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(0, 0, 0);}
+
+ button.active{
+    visibility: hidden;
+ }
+ @media only screen and (max-width: 998px) {
+  /* Adjust styles for screens smaller than 768px */
+  .carousel-caption {
+    
+      font-size: 24px;
+      left: 30%;
+      top:25%;
+      transform: translateX(-50%);
+      bottom: 10%;
+      line-height: 24px;
+  }
+  .Whitecontainer{
+    visibility: hidden;
+  }
+
+  .meta {
+      font-size: 10px;
+  }
+
+  #slide-status {
+      font-size: 14px;
+  }
+  .SearchBanner{
+    top:60%;
+    left: 20%;
+  }
+  .SearchContainer{
+    top:66%;
+    left: 17%;
+   
+  }
+
+}
+@media only screen and (max-width: 700px){
+  .SearchBanner{
+    top:59%;
+    left: 18%;
+  }
+  .SearchContainer{
+    top:63%;
+    left: 14%;
+  }
+ 
+}
+@media only screen and (max-width: 560px) {
+  .SearchBanner{
+    top:59%;
+    left: 16%;}
+
+    .SearchContainer{
+      top:63%;
+      left: 10%;
+    }
+
+}
+
+@media only screen and (max-width: 412px) {
+  .SearchBanner{
+    top:59%;
+    left: 8%;}
+    .SearchContainer{
+      top:63%;
+      left: 2%;
+    }
+
+    
+}
+@media only screen and (max-width: 370px) {
+  .SearchBanner{
+    top:59%;
+    left: 10%;}
+    .SearchContainer{
+      top:62%;
+      left: 3%;
+    }
+  }
+
+
+ 
+

@@ -1,0 +1,130 @@
+/* Existing styles remain unchanged */
+
+.search-form {
+  position: relative; /* Add position relative to the search form */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+}
+
+.input-container {
+  position: relative;
+  border: 1px solid #ced4da;
+  width: 400px;
+  z-index: 999;
+}
+
+.search-input {
+  padding: 10px;
+  border: none;
+  border-radius: 0;
+  outline: none;
+ 
+}
+
+.search-input:focus{
+  box-shadow: none;
+}
+
+
+
+.filter-button {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  bottom: 5px;
+}
+
+.search-button {
+  height: 44px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+
+.list-group-container {
+  position: absolute;
+  margin-top: -14px;
+  margin-left: 10px;
+  top: 100%; 
+  left: 0;
+  width:96%;
+ border: 2px solid rgb(187, 187, 194);
+
+
+}
+
+.scrollable-list {
+  max-height: 80px;
+  overflow-y: auto;
+ 
+}
+
+.scrollable-list::-webkit-scrollbar {
+  width: 12px; 
+}
+
+.scrollable-list::-webkit-scrollbar-thumb {
+  background-color: #4285f4; 
+  border-radius: 6px;
+  
+}
+
+.scrollable-list::-webkit-scrollbar-track {
+  background-color: #f1f1f1; 
+
+}
+
+
+
+  @media only screen and (max-width: 700px){
+    
+
+    .input-container{
+      width: 300px;
+    }
+  }
+
+  @media only screen and (max-width: 500px){
+
+
+    .input-container{
+      width: 248px;
+    }
+  
+    .search-butto{
+        font-size: small;
+    }
+    .search-input::placeholder {
+        font-size: smaller; /* Adjust the font size as needed */
+      }
+      
+
+   
+  }
+
+  @media only screen and (max-width: 375px) {
+    .input-container {
+      width: 180px; /* Adjust the width as needed for your design */
+      
+    }
+  
+    .filter-button {
+      right: 5px;
+      top: 2px;
+      bottom: 2px;
+    }
+  
+    .search-button {
+      height: 36px; /* Adjust the height as needed for your design */
+    }
+  
+    .search-input {
+      padding: 8px; /* Adjust the padding as needed for your design */
+    }
+  }
+  
+  

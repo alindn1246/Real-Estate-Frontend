@@ -1,0 +1,29 @@
+
+.DateTimeContainer{
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+   width: 400px;
+  margin-top: 20px;
+   padding: 30px;
+}
+
+.PropertyDateTime{
+    width: 200px;
+    margin-top: 20px;
+
+}
+
+.SmallInput {
+    width: 50%; /* Decrease the width */
+}
+
+.GreenHover:hover {
+    background-color: green; /* Change the color to green when hovered */
+}
+
+.SubmitButton {
+   padding-left: 140px;
+   padding-top: 300PX;
+   width: 70PX;
+}

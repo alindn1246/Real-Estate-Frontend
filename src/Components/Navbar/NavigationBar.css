@@ -1,0 +1,284 @@
+    
+
+.navbar-nav{
+
+
+
+  margin-top: -10px;
+  width: 100%;
+  z-index: 800;
+  border: solid 6px transparent;
+ 
+ 
+  padding: 28px;
+  
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(26, 215, 63, 0.95);
+  font-weight: 900;
+  font-style: oblique;
+  font-size: 14px;
+}
+
+.seprator{
+  font-size: 1.3em;
+  color: rgba(0, 0, 0, 0.901);
+}
+
+
+.navbar-nav .nav-link{
+  color: #007bff;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .dropdown-item {
+  color: rgba(0, 0, 0, 0.901);
+  font-weight:bold;
+  line-height: 36px;
+
+}
+
+
+
+.LOGIN{
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+  /* Custom styles for hover effects */
+  .Avatar{
+      
+     width: 50px;
+     height: 50px;
+  }
+  .Avatarone{
+    
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 12px;
+    z-index: 999;
+   
+    
+  }
+  
+  
+  .Logo {
+ position: absolute;
+ width: 140px;
+ height: 120px;
+ margin-left: 40px; /* Adjust this value as needed */
+ top: -15px;
+ z-index: 999;
+
+}
+
+ 
+  .dropdown-menu {
+
+      border-radius: 18px;
+position: absolute; /* Add absolute positioning */
+top: 100%; /* Position it below the parent */
+left: 50%; /* Align with the middle of the parent */
+transform: translateX(-24%); /* Shift it back by half of its width */
+/* rest of your styles... */
+}
+ 
+.dropdown-menu::before, .dropdown-menu::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  height: 0;
+  width: 0;
+  pointer-events: none;
+}
+
+.dropdown-menu::before {
+  border-color: rgba(136, 183, 213, 0);
+  border-bottom-color: #D0D3D9;
+  border-width: 10px;
+  margin-left: -10px;
+}
+
+      .dropdown-menu::after {
+          border-color: rgba(255, 255, 255, 0);
+          border-bottom-color: #FFFFFF;
+          border-width: 9px;
+          margin-left: -9px;
+      }
+ 
+  .navbar-nav .nav-link {
+    position: relative;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #007bff !important; /* Change color as per your design */
+  }
+
+  .navbar-nav .nav-link::before {
+content: "";
+position: absolute;
+width: 100%;
+height: 2px;
+background-color: #28a745; /* Green color */
+bottom: 0;
+left: 0;
+transform-origin: bottom right;
+transform: scaleX(0);
+transition: transform 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover::before {
+transform-origin: bottom left;
+transform: scaleX(1);
+}
+
+.navbar-nav .nav-item.dropdown:hover .nav-link::before {
+transform-origin: bottom left;
+}
+
+
+
+
+
+
+
+
+
+/* Exclude hover effect for the last item */
+.navbar-nav .nav-item:last-child .nav-link::before {
+transform: scaleX(0);
+}
+.navbar-nav .nav-item:last-child .dropdown-menu {
+  border-radius: 20px;
+  position: absolute; /* Add absolute positioning */
+top: 100%; /* Position it below the parent */
+left: 50%; /* Align with the middle of the parent */
+transform: translateX(-60%); /* Shift it back by half of its width */
+/* rest of your styles... */
+  }
+
+  .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    
+     
+  }
+
+  /* Additional style for the dropdown caret */
+  .navbar-nav .nav-item.dropdown .nav-link::after {
+      content: "";
+display: inline-block;
+margin-left: 5px;
+border: solid #007bff;
+border-width: 0 2px 2px 0;
+padding: 3px;
+transform: rotate(45deg);
+  }
+ /* Change the color to green when you hover over the link */
+.myAccordion a{
+ margin-bottom: 15px;
+}
+.myAccordion a:hover {
+  color: green;
+}
+
+.myAccordion .accordion-button:hover{
+  color:green;
+}
+
+/* Change the color to green when you click on the link */
+.myAccordion a:active {
+  color: green;
+}
+.accordion-button:focus {
+  box-shadow: none;
+  outline: none;
+  
+}
+
+  
+  
+@media (max-width: 1100px) {
+  .navbar-nav .nav-link,
+.navbar-nav .dropdown-item {
+  color: rgba(0, 0, 0, 0.901);
+  font-weight:bold;
+  line-height: 36px;
+  font-size: 0.8em;
+}
+}
+
+
+  @media (max-width: 998px) {
+    .offcanvas {
+      background-color: #ffffff; /* Change the background color of the sidebar */
+      color: #000000; /* Change the text color inside the sidebar */
+    }
+    .navbar-nav{
+ display: none;
+
+     
+    }
+.Logo{
+  position: absolute;
+ width: 115px;
+ height: 95px;
+ margin-left: 55px; /* Adjust this value as needed */
+ top: -16px;
+}
+.Avatarone{
+  visibility: hidden;
+}
+.navbar-text{
+  display: none;
+}
+
+
+
+.navbar-nav .nav-link:hover::before {
+  transform-origin: bottom left;
+  transform: scaleX(0);
+  }
+  .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+    z-index: 999;
+  }
+  .dropdown-menu {
+    transform: none !important; /* Override the transform property */
+  }
+  .navbar-nav .nav-item:last-child .dropdown-menu {
+visibility: hidden;
+  }
+
+  
+
+
+
+  
+
+
+  
+  .nav-link:hover,
+  .dropdown-item:hover {
+    color: #ddd;
+  }
+
+  .custom-toggler:hover {
+    border-color: transparent !important;
+  }
+  .custom-toggler:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .custom-toggler {
+ visibility: visible;
+  }
+  
+
+  
+  }

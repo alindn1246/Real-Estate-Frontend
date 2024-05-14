@@ -1,0 +1,116 @@
+.ImagePropertycontainer {
+    width: 1100px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    position: relative;
+  
+}
+
+.imagecarsoulproperty {
+    height: 440px;
+    border-radius: 20px;
+    
+    
+}
+
+.btnBox{
+    position: absolute;
+    top: 0px;
+   left: 40px;
+ 
+  
+}
+
+.btnInspection{
+    padding: 5px;
+    font-size: 12px;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: green;
+    border:1px solid green;
+}
+
+.iconInspection{
+    width: 30px;
+    height: 30px;
+}
+
+
+@media (max-width: 998px) {
+    .ImagePropertycontainer {
+        width: 760px;
+    }
+
+    .imagecarsoulproperty {
+        height: 400px;
+    }
+}
+
+@media (max-width: 770px) {
+    .ImagePropertycontainer {
+        width: 650px;
+    }
+
+    .imagecarsoulproperty {
+        height: 300px;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .ImagePropertycontainer {
+        width: 400px;
+    }
+
+ 
+
+    .imagecarsoulproperty {
+        height: 200px; /* Adjusted height for better compatibility */
+    }
+       
+    .btnBox{
+        left: 20px;
+    }
+    .btnInspection{
+        font-size: 5px;
+        height: 25px;
+        width: 90px;
+    }
+    .iconInspection{
+        width: 14px;
+        height: 14px;
+    }
+  
+}
+
+@media (max-width: 380px) {
+    .ImagePropertycontainer {
+        width: 300px;
+    }
+
+    .imagecarsoulproperty {
+        height: 160px;
+    }
+     
+  
+   
+
+        .btnBox{
+            left: 20px;
+        }
+        .btnInspection{
+            
+            font-size: 5px;
+            height: 20px;
+            width: 75px;
+        }
+        .iconInspection{
+            width: 10px;
+            height: 10px;
+        }
+       
+    }

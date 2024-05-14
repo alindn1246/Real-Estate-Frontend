@@ -1,0 +1,137 @@
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 472px;
+    padding: 25px;
+    background-color: #161616;
+    box-shadow: 0px 15px 60px #00FF7F;
+    outline: 1px solid #2b9962;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 90PX;
+
+  }
+
+
+
+
+  .form-body {
+    width: 100%;
+   
+  }
+  
+  .welcome-lines {
+    text-align: center;
+    line-height: 1;
+  }
+  
+  .welcome-line-1 {
+    color: #00FF7F;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  
+  .welcome-line-2 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 17px;
+  }
+  
+  .input-area {
+    margin-top: 40px;
+  }
+  
+  .form-inp {
+    margin-bottom: 15px;
+  }
+  
+  .form-inp input {
+    width: 100%;
+    background: none;
+    font-size: 13.4px;
+    color: #00FF7F;
+    background-color: white;
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+    padding: 11px 25px;
+  }
+  
+  .form-inp input:focus {
+    outline: none;
+    border: 1px solid #00FF7F;
+  }
+  
+  .submit-button-cvr {
+    margin-top: 20px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    color: #00FF7F;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 14px 13px 12px 13px;
+    border: 0;
+    outline: 1px solid #00FF7F;
+    border-radius: 8px;
+    line-height: 1;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #00FF7F;
+    color: #161616;
+  }
+  
+  .forgot-pass {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .forgot-pass a {
+    color: #868686;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  
+  .bar {
+    position: relative;
+    width: 28px;
+    height: 8px;
+    margin: 0 auto;
+    background-color: #00FF7F;
+    border-radius: 10px;
+  }
+  
+  .bar:before,
+  .bar:after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #ececec;
+    border-radius: 50%;
+  }
+  
+  .bar:before {
+    right: -20px;
+  }
+  
+  .bar:after {
+    right: -38px;
+  }
+
+  .Sign-Up{
+    display: flex;
+    justify-content: center;
+    color: #ececec;
+    width: 0 auto;
+     margin-bottom: 30px;
+  }
+
+  

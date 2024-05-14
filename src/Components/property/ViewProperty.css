@@ -1,0 +1,298 @@
+.propertyImagesliders {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .boxinfo {
+    position: relative;
+    
+    
+  }
+
+  
+  .AgentInfo {
+    background-color: rgb(14, 14, 26);
+    width: 220px;
+    height: 260px;
+    margin-left: 63%;
+    position: relative;
+    text-align: center;
+    z-index: 999;
+  }
+  
+  .PropertyInfo {
+  
+    position: absolute;
+    top: 10px;
+    left: 19%;
+    margin-left: 20px;
+  }
+  
+  .priceproperty {
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+  
+  .picAgent {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 10px;
+    border: 3px solid white;
+  }
+  
+  .feature {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1rem;
+    color: #4a5568;
+  }
+  
+  .feature > * {
+    margin-right: 20px;
+  }
+
+  .navigationproperty {
+    background-color: white;
+    
+   margin-left: -35px;
+
+  }
+  
+  
+  .navigationproperty .active {
+    display: flex;
+    align-items: center;
+    color: rgb(45, 209, 45);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navigationproperty .active:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .navigationproperty .active svg, .navigationproperty .active .calculator-icon  {
+    fill: green;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .titles{
+    font-weight: bold;
+  }
+  
+  .property-description-container {
+    width: 494px;
+    margin-left: -35px;
+   position: relative;
+  }
+ .text{
+  font-size: 11px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 10px;
+ }
+ .text::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(transparent, white);
+
+}
+  
+ .clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.fade-line{
+  height: 30px;
+  background: linear-gradient(transparent, white);
+}
+.btnreadmore{
+  border: 2px solid #1e293d;
+  color: #1e293d;
+  background: none;
+  padding: 5px 10px;
+ 
+  
+  cursor: pointer;
+  transition: all 0.3s ease
+
+}
+.btnreadmore:hover{
+  color: white;
+  background: #1e293d;
+}
+
+.titleMap{
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.mapme{
+   
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+  
+  .Agentname {
+    font-size: 14px;
+    color: aliceblue;
+    margin-top: 12px;
+  }
+  
+  .Agencylogo {
+    width: 150px;
+    height: 55px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+  }
+  
+  .emailAgentcontainer {
+    background-color: #f2f5f7;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .emailAgentbox {
+    background-color: #ff613d;
+    border: transparent;
+    width: 170px;
+    height: 40px;
+  }
+  
+  .emAgent {
+    color: white;
+    font-size: 10px;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .emailAgentbox:hover {
+    background-color: rgb(28, 215, 28);
+  }
+  
+  .iconEmail {
+    color: aliceblue;
+    margin-right: 2px;
+  }
+
+  .bannermicasa{
+  
+   margin-top: 20%;
+   margin-left: -100px;
+  
+  }
+  
+  .bannermicasa-Image{
+    max-width: 100%;
+ 
+ 
+  }
+  
+  /* Media Queries */
+  @media (max-width: 998px) {
+    .PropertyInfo {
+      left: 10%;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    
+    .property-description-container {
+      width: 300px;
+      margin-left: -35px;
+     
+    
+    }
+    
+    
+    .AgentInfo {
+      visibility: hidden;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .navigationproperty{
+     
+      height: 150px;
+      
+    }
+    .navigationproperty .active svg, .navigationproperty .active .calculator-icon  {
+      width: 20px;
+      height: 20px;
+    }
+    .PropertyInfo {
+      font-size: xx-small;
+      left: 9%;
+    }
+  
+    .feature {
+      font-size: 0.7rem;
+    }
+  
+    .AgentInfo {
+      width: 110px;
+      height: 190px;
+      margin-left: 63%;
+    }
+  
+    .picAgent {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .Agentname {
+      font-size: 8px;
+    }
+  
+    .Agencylogo {
+      width: 90px;
+      height: 30px;
+    }
+  
+    .emailAgentcontainer {
+      width: 110px;
+      height: 55px;
+    }
+  
+    .emailAgentbox {
+      width: 100px;
+      height: 30px;
+    }
+  
+    .emAgent {
+      font-size: 6px;
+    }
+  
+    .iconEmail {
+      width: 8px;
+      height: 8px;
+    }
+  }
+  @media (max-width: 400px) {
+    .mapme{
+      width: 300px;
+      margin-left: -30px;
+    
+    }
+  
+  }
+  
+  

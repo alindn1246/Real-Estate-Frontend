@@ -1,0 +1,86 @@
+.card3 {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 265px; 
+  height: 240px; 
+  margin-left: 11%; 
+  margin-top: 15px; 
+  border-radius: 5px;
+  background-color: white;
+  
+}
+
+.carousel .control-arrow:last-child{
+  visibility: hidden;
+}
+
+.CarsouselPropertycard3{
+  height: 145px; /* was 158px */
+}
+
+.image3 {
+  width: 100%;
+  height: 145px; /* was 158px */
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image3.large {
+  height: 249px; /* was 271.0086656px */
+}
+
+.carousel .thumbs {
+  visibility: hidden;
+}
+.carousel .thumbs-wrapper {
+  height: 0px;
+}
+
+.carousel .control-dots{
+  visibility: hidden;
+}
+
+.price3 {
+  font-size: 12px; /* was 13px */
+  font-weight:500;
+  color: #3d464b;
+}
+
+.title3{
+  color: #3d464b;
+}
+
+.content-card3{
+  margin-left: 10px; /* was 11px */
+  position: relative;
+}
+
+a.titlelink{
+  color: white;
+  font-style: oblique;
+}
+
+.address3 {
+  color: #718096;
+  font-size: 6px; /* was 7px */
+  font-weight: medium;
+  padding-top: 2px; 
+}
+
+.features-card3 {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 7px; /* was 8px */
+  color: #4a5568;
+}
+
+.features-card3 > * { 
+  margin-right: 9px; /* was 10px */
+}
+
+.Typeproperty3{
+  font-weight: bold;
+  color: #120505;
+  margin-left: 3px; 
+}
+

@@ -1,0 +1,25 @@
+.featuresCheckbox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  width: 100%; /* Adjust the width based on your preference */
+margin: auto;
+}
+
+.featuresCheckbox .form-check-input:checked {
+  background-color: green;
+  border-color: green;
+}
+.featuresCheckbox .form-check-input:focus {
+ 
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(41, 154, 7, 0.341);
+}
+
+.featuresCheckbox .form-check-label {
+  font-size: 12px;
+  margin-right: 30px;
+  display: inline-block;
+  white-space: nowrap;
+}
+

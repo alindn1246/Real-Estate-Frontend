@@ -1,0 +1,31 @@
+.favorite{
+    width: 35px;
+    height: 35px;
+    color: rgba(26, 215, 63, 0.95);
+   }
+   .favoritefalse{
+    
+   
+    width: 35px;
+    height: 35px;
+    color: #b71616;
+   }
+   .favorite:hover{
+ color: gold;
+ cursor: pointer;
+   }
+   .favoritefalse:hover{
+     color: gold;
+ cursor: pointer;
+   }
+   
+   @media (max-width: 600px) {
+    .favoritefalse{
+      width: 20px;
+      height: 20px;
+    }
+    .favorite{
+      width: 20px;
+      height: 20px;
+    }
+   }

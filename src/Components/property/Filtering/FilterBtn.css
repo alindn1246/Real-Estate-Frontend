@@ -1,0 +1,78 @@
+.FilterBtn :focus {
+    outline: 0;
+    border-color: rgb(14, 168, 0);
+    box-shadow: 0 0 0 3.2px rgb(14, 168, 0);
+}
+
+.FilterBtn div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.4rem;
+    justify-content: center;
+}
+
+.FilterBtn input[type="radio"] {
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    height: 0.8px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 0.8px;
+}
+
+.FilterBtn input[type="radio"]:checked + .FilterBtn-span {
+    box-shadow: 0 0 0 0.05em rgb(14, 168, 0);
+    background-color: rgb(232, 248, 235);
+    z-index: 1;
+    color:rgb(14, 168, 0) ;
+}
+
+.FilterBtn-label span {
+    display: block;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 0.4em 1.6em; /* Adjusted padding for height and width */
+    position: relative;
+    margin-left: 0.05em;
+    box-shadow: 0 0 0 0.05em #b5bfd9;
+    letter-spacing: 0.04em;
+    color: #3e4963;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.12em; 
+    transition: background-color 0.5s ease;
+}
+
+.FilterBtn-label:first-child .FilterBtn-span {
+    border-radius: 0.3em 0 0 0.3em;
+}
+
+.FilterBtn-label:last-child .FilterBtn-span {
+    border-radius: 0 0.3em 0.3em 0;
+}
+
+@media only screen and (max-width:600px) {
+    .FilterBtn :focus {
+        box-shadow: 0 0 0 2.4px rgb(14, 168, 0);
+    }
+
+    .FilterBtn div {
+        margin-top: 0.3rem;
+    }
+
+    .FilterBtn input[type="radio"] {
+        height: 0.6px;
+        width: 0.6px;
+    }
+
+    .FilterBtn input[type="radio"]:checked + .FilterBtn-span {
+        box-shadow: 0 0 0 0.0375em rgb(14, 168, 0);
+    }
+
+    .FilterBtn-label span {
+        padding: 0.3em 1.2em;
+        margin-left: 0.0375em;
+        font-size: 0.84em; 
+    }
+}
